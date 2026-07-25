@@ -24,9 +24,13 @@ matters, and how to say it in Nitesh's voice.
 
 - **Never send a message.** Output is a markdown file Nitesh copies from. No
   posting, no DM automation, no Postiz.
-- **Never automate LinkedIn.** Do not navigate to or scrape linkedin.com. Nitesh
-  opens the profile himself; you read the page he already has open. Automated
-  LinkedIn access violates their ToS and risks a ban on his own account.
+- **Never crawl LinkedIn.** One page load Nitesh explicitly asked for is fine —
+  a profile or search URL he named, in his own session. What is banned is volume:
+  no walking result pages, no following connection lists, no visiting profiles he
+  did not name, no loop of any kind. The risk being managed is a ban on his own
+  account, and that comes from pattern, not from a single fetch.
+  Note the Chrome extension only sees tabs in its own group, so a URL he opened
+  himself usually has to be loaded once more to be readable. That is expected.
 - **Never invent a hook.** Every claim in a draft traces to a source URL. If no
   source succeeded, abort instead of drafting.
 - **Never write to `sent.jsonl` without explicit confirmation.**
@@ -98,6 +102,23 @@ python3 engine.py dossier <person_key>
 If `usable: false`, **abort.** Report which sources failed. A message built from
 no evidence invents its hook, and a fabricated hook does more damage than sending
 nothing at all.
+
+## Step 6a — Domain-fit gate (judgment, before ranking)
+
+State in one line what this person actually does, and whether it overlaps the ask.
+Read their own words, not the search that surfaced them. Keyword search matches
+substrings: a search for `data` returns data *center* recruiters, and every angle
+will look open on a person who is structurally wrong.
+
+- **Clear overlap** → continue to ranking.
+- **No overlap** → do not pitch the ask. Either stop and say so, or reframe to what
+  this person can actually do (a recruiter with no matching reqs can still route
+  you to whoever owns them). Name the mismatch in the draft itself: it proves the
+  profile was read and it makes the request smaller.
+- **Unclear** → ask Nitesh before drafting.
+
+Dedupe is about *whether* to write. This is about *what to write*. Passing the
+first tells you nothing about the second.
 
 ## Step 6 — Rank hooks (judgment)
 

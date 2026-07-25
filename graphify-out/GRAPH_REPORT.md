@@ -1,12 +1,12 @@
 # Graph Report - /Users/nitesh/Projects/outreach-dm  (2026-07-25)
 
 ## Corpus Check
-- 4 files · ~5,139 words
+- 4 files · ~6,286 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 84 nodes · 146 edges · 10 communities detected
-- Extraction: 68% EXTRACTED · 32% INFERRED · 0% AMBIGUOUS · INFERRED: 47 edges (avg confidence: 0.8)
+- 106 nodes · 173 edges · 23 communities detected
+- Extraction: 63% EXTRACTED · 37% INFERRED · 0% AMBIGUOUS · INFERRED: 64 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -20,18 +20,31 @@
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `resolve_identity()` - 15 edges
-2. `append_contact()` - 13 edges
-3. `main()` - 11 edges
-4. `build_dossier()` - 10 edges
-5. `check_seen()` - 9 edges
-6. `record_source()` - 9 edges
-7. `TestResolveIdentity` - 9 edges
-8. `contacts_for()` - 8 edges
-9. `available_angles()` - 7 edges
-10. `set_identity()` - 7 edges
+1. `build_dossier()` - 16 edges
+2. `resolve_identity()` - 15 edges
+3. `record_source()` - 14 edges
+4. `append_contact()` - 13 edges
+5. `main()` - 12 edges
+6. `check_seen()` - 9 edges
+7. `choose_channel()` - 9 edges
+8. `TestResolveIdentity` - 9 edges
+9. `contacts_for()` - 8 edges
+10. `available_angles()` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `outreach_home()` --calls--> `dossier_path()`  [INFERRED]
@@ -48,16 +61,16 @@
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.21
-Nodes (10): build_dossier(), load_dossier(), Load a dossier, returning an empty skeleton if none exists yet., Store one fetched source into the dossier and return the updated dossier.      A, Persist the resolved identity into the dossier., Merge stored sources into the payload the skill drafts from.      `usable` is Fa, record_source(), set_identity() (+2 more)
+Cohesion: 0.19
+Nodes (11): build_dossier(), choose_channel(), Store one fetched source into the dossier and return the updated dossier.      A, Merge stored sources into the payload the skill drafts from.      `usable` is Fa, Decide the send channel, or defer to Nitesh when it is a real choice.      Resea, record_source(), A gap must stay visible so drafting never fills it silently., The channel shapes the tone, so a real choice is never guessed. (+3 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.18
-Nodes (11): choose_channel(), dossier_path(), Identity, engine.py — Deterministic half of outreach-dm.  Handles identity resolution, the, Write a dossier to disk and return its path., Print a payload as JSON for the skill to read., Everything known about who the target is, before any research., Lowercase ASCII slug, collapsing anything non-alphanumeric to a hyphen. (+3 more)
+Nodes (8): Identity, Everything known about who the target is, before any research., Lowercase ASCII slug, collapsing anything non-alphanumeric to a hyphen., Derive a stable person_key from a LinkedIn URL, X handle, or "Name, Company"., resolve_identity(), slugify(), Priority is fixed so one person always resolves to one key., TestResolveIdentity
 
 ### Community 2 - "Community 2"
-Cohesion: 0.27
-Nodes (4): Derive a stable person_key from a LinkedIn URL, X handle, or "Name, Company"., resolve_identity(), Priority is fixed so one person always resolves to one key., TestResolveIdentity
+Cohesion: 0.23
+Nodes (9): dossier_path(), load_dossier(), engine.py — Deterministic half of outreach-dm.  Handles identity resolution, the, Load a dossier, returning an empty skeleton if none exists yet., Write a dossier to disk and return its path., Persist the resolved identity into the dossier., Return the on-disk path for a person's dossier., save_dossier() (+1 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.2
@@ -73,11 +86,11 @@ Nodes (3): check_seen(), Dedupe gate. Runs before any fetching.      Returns pri
 
 ### Community 6 - "Community 6"
 Cohesion: 0.4
-Nodes (6): available_angles(), Return the angles already used on this person., Return angles not yet used on this person, in canonical order., used_angles(), test_missing_file_returns_empty(), test_used_and_available_are_complementary()
+Nodes (5): outreach_home(), log.py — Append-only outreach record.  Every message Nitesh actually sends is ap, Return the data directory, honoring OUTREACH_HOME for tests., Return the path to the append-only sent log., sent_path()
 
 ### Community 7 - "Community 7"
 Cohesion: 0.4
-Nodes (5): outreach_home(), log.py — Append-only outreach record.  Every message Nitesh actually sends is ap, Return the data directory, honoring OUTREACH_HOME for tests., Return the path to the append-only sent log., sent_path()
+Nodes (6): available_angles(), Return the angles already used on this person., Return angles not yet used on this person, in canonical order., used_angles(), test_missing_file_returns_empty(), test_used_and_available_are_complementary()
 
 ### Community 8 - "Community 8"
 Cohesion: 0.5
@@ -85,28 +98,106 @@ Nodes (4): contacts_for(), Return every prior contact for a person, oldest first
 
 ### Community 9 - "Community 9"
 Cohesion: 1.0
+Nodes (1): Everything known about who the target is, before any research.
+
+### Community 10 - "Community 10"
+Cohesion: 1.0
+Nodes (1): Lowercase ASCII slug, collapsing anything non-alphanumeric to a hyphen.
+
+### Community 11 - "Community 11"
+Cohesion: 1.0
+Nodes (1): Derive a stable person_key from a LinkedIn URL, X handle, or "Name, Company".
+
+### Community 12 - "Community 12"
+Cohesion: 1.0
+Nodes (1): Dedupe gate. Runs before any fetching.      Returns prior contacts plus the angl
+
+### Community 13 - "Community 13"
+Cohesion: 1.0
+Nodes (1): Return the on-disk path for a person's dossier.
+
+### Community 14 - "Community 14"
+Cohesion: 1.0
+Nodes (1): Load a dossier, returning an empty skeleton if none exists yet.
+
+### Community 15 - "Community 15"
+Cohesion: 1.0
+Nodes (1): Write a dossier to disk and return its path.
+
+### Community 16 - "Community 16"
+Cohesion: 1.0
+Nodes (1): Store one fetched source into the dossier and return the updated dossier.      A
+
+### Community 17 - "Community 17"
+Cohesion: 1.0
+Nodes (1): Persist the resolved identity into the dossier.
+
+### Community 18 - "Community 18"
+Cohesion: 1.0
+Nodes (1): Merge stored sources into the payload the skill drafts from.      `usable` is Fa
+
+### Community 19 - "Community 19"
+Cohesion: 1.0
+Nodes (1): Print a payload as JSON for the skill to read.
+
+### Community 20 - "Community 20"
+Cohesion: 1.0
+Nodes (1): Print a payload as JSON for the skill to read.
+
+### Community 21 - "Community 21"
+Cohesion: 1.0
+Nodes (1): CLI entry point. Every subcommand prints JSON on stdout.
+
+### Community 22 - "Community 22"
+Cohesion: 1.0
 Nodes (1): CLI entry point. Every subcommand prints JSON on stdout.
 
 ## Knowledge Gaps
-- **28 isolated node(s):** `log.py — Append-only outreach record.  Every message Nitesh actually sends is ap`, `Return the data directory, honoring OUTREACH_HOME for tests.`, `Return the path to the append-only sent log.`, `Record one sent message. Returns the row that was written.      Raises ValueErro`, `Return every prior contact for a person, oldest first.` (+23 more)
+- **43 isolated node(s):** `log.py — Append-only outreach record.  Every message Nitesh actually sends is ap`, `Return the data directory, honoring OUTREACH_HOME for tests.`, `Return the path to the append-only sent log.`, `Record one sent message. Returns the row that was written.      Raises ValueErro`, `Return every prior contact for a person, oldest first.` (+38 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 9`** (1 nodes): `CLI entry point. Every subcommand prints JSON on stdout.`
+- **Thin community `Community 9`** (1 nodes): `Everything known about who the target is, before any research.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 10`** (1 nodes): `Lowercase ASCII slug, collapsing anything non-alphanumeric to a hyphen.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 11`** (1 nodes): `Derive a stable person_key from a LinkedIn URL, X handle, or "Name, Company".`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 12`** (1 nodes): `Dedupe gate. Runs before any fetching.      Returns prior contacts plus the angl`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 13`** (1 nodes): `Return the on-disk path for a person's dossier.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 14`** (1 nodes): `Load a dossier, returning an empty skeleton if none exists yet.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 15`** (1 nodes): `Write a dossier to disk and return its path.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 16`** (1 nodes): `Store one fetched source into the dossier and return the updated dossier.      A`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 17`** (1 nodes): `Persist the resolved identity into the dossier.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 18`** (1 nodes): `Merge stored sources into the payload the skill drafts from.      `usable` is Fa`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 19`** (1 nodes): `Print a payload as JSON for the skill to read.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 20`** (1 nodes): `Print a payload as JSON for the skill to read.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 21`** (1 nodes): `CLI entry point. Every subcommand prints JSON on stdout.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 22`** (1 nodes): `CLI entry point. Every subcommand prints JSON on stdout.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `main()` connect `Community 3` to `Community 0`, `Community 1`, `Community 2`, `Community 4`, `Community 5`?**
-  _High betweenness centrality (0.296) - this node is a cross-community bridge._
+  _High betweenness centrality (0.225) - this node is a cross-community bridge._
 - **Why does `append_contact()` connect `Community 4` to `Community 3`, `Community 5`, `Community 6`, `Community 7`, `Community 8`?**
-  _High betweenness centrality (0.252) - this node is a cross-community bridge._
-- **Why does `resolve_identity()` connect `Community 2` to `Community 0`, `Community 1`, `Community 3`?**
-  _High betweenness centrality (0.236) - this node is a cross-community bridge._
+  _High betweenness centrality (0.175) - this node is a cross-community bridge._
+- **Why does `resolve_identity()` connect `Community 1` to `Community 2`, `Community 3`?**
+  _High betweenness centrality (0.159) - this node is a cross-community bridge._
+- **Are the 12 inferred relationships involving `build_dossier()` (e.g. with `available_angles()` and `.test_record_and_merge()`) actually correct?**
+  _`build_dossier()` has 12 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 10 inferred relationships involving `resolve_identity()` (e.g. with `.test_linkedin_url_wins()` and `.test_bare_x_handle()`) actually correct?**
   _`resolve_identity()` has 10 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 9 inferred relationships involving `record_source()` (e.g. with `.test_record_and_merge()` and `.test_failed_source_is_visible_not_dropped()`) actually correct?**
+  _`record_source()` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 10 inferred relationships involving `append_contact()` (e.g. with `main()` and `.test_prior_contact_removes_its_angle()`) actually correct?**
   _`append_contact()` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 3 inferred relationships involving `main()` (e.g. with `append_contact()` and `.test_resolve_prints_json()`) actually correct?**
-  _`main()` has 3 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 6 inferred relationships involving `build_dossier()` (e.g. with `available_angles()` and `.test_record_and_merge()`) actually correct?**
-  _`build_dossier()` has 6 INFERRED edges - model-reasoned connections that need verification._
