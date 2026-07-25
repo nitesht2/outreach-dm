@@ -45,7 +45,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L76",
       "id": "log_contacts_for",
-      "community": 8,
+      "community": 9,
       "norm_label": "contacts_for()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L97",
       "id": "log_used_angles",
-      "community": 9,
+      "community": 8,
       "norm_label": "used_angles()"
     },
     {
@@ -80,54 +80,54 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L30",
-      "id": "log_rationale_30",
       "community": 7,
-      "norm_label": "return the data directory, honoring outreach_home for tests."
+      "norm_label": "return the data directory, honoring outreach_home for tests.",
+      "id": "log_rationale_30"
     },
     {
       "label": "Return the path to the append-only sent log.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L35",
-      "id": "log_rationale_35",
       "community": 7,
-      "norm_label": "return the path to the append-only sent log."
+      "norm_label": "return the path to the append-only sent log.",
+      "id": "log_rationale_35"
     },
     {
       "label": "Record one sent message. Returns the row that was written.      Raises ValueErro",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L47",
-      "id": "log_rationale_47",
       "community": 4,
-      "norm_label": "record one sent message. returns the row that was written.      raises valueerro"
+      "norm_label": "record one sent message. returns the row that was written.      raises valueerro",
+      "id": "log_rationale_47"
     },
     {
       "label": "Return every prior contact for a person, oldest first.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L77",
-      "id": "log_rationale_77",
-      "community": 8,
-      "norm_label": "return every prior contact for a person, oldest first."
+      "community": 9,
+      "norm_label": "return every prior contact for a person, oldest first.",
+      "id": "log_rationale_77"
     },
     {
       "label": "Return the angles already used on this person, optionally scoped to one intent.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L98",
-      "id": "log_rationale_98",
-      "community": 9,
-      "norm_label": "return the angles already used on this person, optionally scoped to one intent."
+      "community": 8,
+      "norm_label": "return the angles already used on this person, optionally scoped to one intent.",
+      "id": "log_rationale_98"
     },
     {
       "label": "Return angles not yet used on this person for this intent, in canonical order.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L115",
-      "id": "log_rationale_115",
       "community": 5,
-      "norm_label": "return angles not yet used on this person for this intent, in canonical order."
+      "norm_label": "return angles not yet used on this person for this intent, in canonical order.",
+      "id": "log_rationale_115"
     },
     {
       "label": "engine.py",
@@ -305,81 +305,81 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L104",
-      "id": "engine_rationale_104",
       "community": 2,
-      "norm_label": "return the on-disk path for a person's dossier."
+      "norm_label": "return the on-disk path for a person's dossier.",
+      "id": "engine_rationale_104"
     },
     {
       "label": "Load a dossier, returning an empty skeleton if none exists yet.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L109",
-      "id": "engine_rationale_109",
       "community": 2,
-      "norm_label": "load a dossier, returning an empty skeleton if none exists yet."
+      "norm_label": "load a dossier, returning an empty skeleton if none exists yet.",
+      "id": "engine_rationale_109"
     },
     {
       "label": "Write a dossier to disk and return its path.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L117",
-      "id": "engine_rationale_117",
       "community": 2,
-      "norm_label": "write a dossier to disk and return its path."
+      "norm_label": "write a dossier to disk and return its path.",
+      "id": "engine_rationale_117"
     },
     {
       "label": "Store one fetched source into the dossier and return the updated dossier.      A",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L125",
-      "id": "engine_rationale_125",
       "community": 0,
-      "norm_label": "store one fetched source into the dossier and return the updated dossier.      a"
+      "norm_label": "store one fetched source into the dossier and return the updated dossier.      a",
+      "id": "engine_rationale_125"
     },
     {
       "label": "Persist the resolved identity into the dossier.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L146",
-      "id": "engine_rationale_146",
       "community": 2,
-      "norm_label": "persist the resolved identity into the dossier."
+      "norm_label": "persist the resolved identity into the dossier.",
+      "id": "engine_rationale_146"
     },
     {
       "label": "Merge stored sources into the payload the skill drafts from.      `usable` is Fa",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L154",
-      "id": "engine_rationale_154",
       "community": 0,
-      "norm_label": "merge stored sources into the payload the skill drafts from.      `usable` is fa"
+      "norm_label": "merge stored sources into the payload the skill drafts from.      `usable` is fa",
+      "id": "engine_rationale_154"
     },
     {
       "label": "Decide the send channel, or defer to Nitesh when it is a real choice.      Resea",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L180",
-      "id": "engine_rationale_180",
       "community": 0,
-      "norm_label": "decide the send channel, or defer to nitesh when it is a real choice.      resea"
+      "norm_label": "decide the send channel, or defer to nitesh when it is a real choice.      resea",
+      "id": "engine_rationale_180"
     },
     {
       "label": "Print a payload as JSON for the skill to read.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L227",
-      "id": "engine_rationale_227",
       "community": 6,
-      "norm_label": "print a payload as json for the skill to read."
+      "norm_label": "print a payload as json for the skill to read.",
+      "id": "engine_rationale_227"
     },
     {
       "label": "CLI entry point. Every subcommand prints JSON on stdout.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L232",
-      "id": "engine_rationale_232",
       "community": 6,
-      "norm_label": "cli entry point. every subcommand prints json on stdout."
+      "norm_label": "cli entry point. every subcommand prints json on stdout.",
+      "id": "engine_rationale_232"
     },
     {
       "label": "test_engine.py",
@@ -765,7 +765,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L24",
       "id": "test_log_test_append_is_append_only",
-      "community": 8,
+      "community": 9,
       "norm_label": "test_append_is_append_only()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L42",
       "id": "test_log_test_corrupt_line_does_not_hide_history",
-      "community": 8,
+      "community": 9,
       "norm_label": "test_corrupt_line_does_not_hide_history()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L72",
       "id": "test_log_test_unscoped_query_counts_every_intent",
-      "community": 9,
+      "community": 8,
       "norm_label": "test_unscoped_query_counts_every_intent()"
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L103",
       "id": "test_log_test_used_and_available_are_complementary",
-      "community": 9,
+      "community": 8,
       "norm_label": "test_used_and_available_are_complementary()"
     },
     {
@@ -890,18 +890,18 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L57",
-      "id": "test_log_rationale_57",
       "community": 5,
-      "norm_label": "networking in march must not block a role ask in july."
+      "norm_label": "networking in march must not block a role ask in july.",
+      "id": "test_log_rationale_57"
     },
     {
       "label": "An unlabeled past message might have used this angle. Assume it did.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L80",
-      "id": "test_log_rationale_80",
       "community": 5,
-      "norm_label": "an unlabeled past message might have used this angle. assume it did."
+      "norm_label": "an unlabeled past message might have used this angle. assume it did.",
+      "id": "test_log_rationale_80"
     },
     {
       "label": "Return the data directory, honoring OUTREACH_HOME for tests.",
@@ -1449,8 +1449,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L58",
       "weight": 1.0,
-      "_src": "test_log_test_angles_are_scoped_per_intent",
-      "_tgt": "log_append_contact",
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_angles_are_scoped_per_intent",
       "source": "log_append_contact",
       "target": "test_log_test_angles_are_scoped_per_intent"
     },
@@ -1461,8 +1461,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L66",
       "weight": 1.0,
-      "_src": "test_log_test_exhausting_one_intent_leaves_others_open",
-      "_tgt": "log_append_contact",
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_exhausting_one_intent_leaves_others_open",
       "source": "log_append_contact",
       "target": "test_log_test_exhausting_one_intent_leaves_others_open"
     },
@@ -1473,8 +1473,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L73",
       "weight": 1.0,
-      "_src": "test_log_test_unscoped_query_counts_every_intent",
-      "_tgt": "log_append_contact",
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_unscoped_query_counts_every_intent",
       "source": "log_append_contact",
       "target": "test_log_test_unscoped_query_counts_every_intent"
     },
@@ -1485,8 +1485,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L95",
       "weight": 1.0,
-      "_src": "test_log_test_bad_intent_rejected",
-      "_tgt": "log_append_contact",
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_bad_intent_rejected",
       "source": "log_append_contact",
       "target": "test_log_test_bad_intent_rejected"
     },
@@ -1497,8 +1497,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L99",
       "weight": 1.0,
-      "_src": "test_log_test_intent_defaults_to_job",
-      "_tgt": "log_append_contact",
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_intent_defaults_to_job",
       "source": "log_append_contact",
       "target": "test_log_test_intent_defaults_to_job"
     },
@@ -1617,8 +1617,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L76",
       "weight": 1.0,
-      "_src": "test_log_test_unscoped_query_counts_every_intent",
-      "_tgt": "log_used_angles",
+      "_src": "log_used_angles",
+      "_tgt": "test_log_test_unscoped_query_counts_every_intent",
       "source": "log_used_angles",
       "target": "test_log_test_unscoped_query_counts_every_intent"
     },
@@ -1689,8 +1689,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L60",
       "weight": 1.0,
-      "_src": "test_log_test_angles_are_scoped_per_intent",
-      "_tgt": "log_available_angles",
+      "_src": "log_available_angles",
+      "_tgt": "test_log_test_angles_are_scoped_per_intent",
       "source": "log_available_angles",
       "target": "test_log_test_angles_are_scoped_per_intent"
     },
@@ -1701,8 +1701,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L68",
       "weight": 1.0,
-      "_src": "test_log_test_exhausting_one_intent_leaves_others_open",
-      "_tgt": "log_available_angles",
+      "_src": "log_available_angles",
+      "_tgt": "test_log_test_exhausting_one_intent_leaves_others_open",
       "source": "log_available_angles",
       "target": "test_log_test_exhausting_one_intent_leaves_others_open"
     },
@@ -1713,8 +1713,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L89",
       "weight": 1.0,
-      "_src": "test_log_test_legacy_row_without_intent_blocks_every_intent",
-      "_tgt": "log_available_angles",
+      "_src": "log_available_angles",
+      "_tgt": "test_log_test_legacy_row_without_intent_blocks_every_intent",
       "source": "log_available_angles",
       "target": "test_log_test_legacy_row_without_intent_blocks_every_intent"
     },

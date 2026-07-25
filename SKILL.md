@@ -208,6 +208,14 @@ Load the channel voice file only after this resolves.
 - **recent-thing** — a specific recent post, release, or talk
 - **direct-ask** — states the ask plainly, minimal preamble
 
+**Always open with a greeting and close with a sign-off.** "Hi <Name>," on its own
+line, and "Thanks," + Nitesh at the end. Never a bare name opener ("Jay, I applied"),
+never straight into content. The anti-slop rules against soft openers in `03` are
+about posts and public content. A message to a person is correspondence, and
+skipping the greeting reads as brusque for no gain. The only exception is a
+character-capped connection note, where the salutation costs a line that the ask
+needs more.
+
 Constraints: short, no filler, no em dashes, contractions on, no emoji opener, no
 link in the body. A DM is not a tweet and not a cover letter. If the message
 would work verbatim on a different person, it is not personalized — rewrite it.
