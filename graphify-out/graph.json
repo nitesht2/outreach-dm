@@ -9,7 +9,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L1",
       "id": "users_nitesh_projects_outreach_dm_log_py",
-      "community": 0,
+      "community": 7,
       "norm_label": "log.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L19",
       "id": "log_outreach_home",
-      "community": 0,
+      "community": 7,
       "norm_label": "outreach_home()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L24",
       "id": "log_sent_path",
-      "community": 0,
+      "community": 7,
       "norm_label": "sent_path()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L29",
       "id": "log_append_contact",
-      "community": 0,
+      "community": 4,
       "norm_label": "append_contact()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L62",
       "id": "log_contacts_for",
-      "community": 1,
+      "community": 8,
       "norm_label": "contacts_for()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L83",
       "id": "log_used_angles",
-      "community": 1,
+      "community": 6,
       "norm_label": "used_angles()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L88",
       "id": "log_available_angles",
-      "community": 1,
+      "community": 6,
       "norm_label": "available_angles()"
     },
     {
@@ -71,63 +71,63 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L1",
-      "id": "log_rationale_1",
-      "community": 0,
-      "norm_label": "log.py \u2014 append-only outreach record.  every message nitesh actually sends is ap"
+      "community": 7,
+      "norm_label": "log.py \u2014 append-only outreach record.  every message nitesh actually sends is ap",
+      "id": "log_rationale_1"
     },
     {
       "label": "Return the data directory, honoring OUTREACH_HOME for tests.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L20",
-      "id": "log_rationale_20",
-      "community": 0,
-      "norm_label": "return the data directory, honoring outreach_home for tests."
+      "community": 7,
+      "norm_label": "return the data directory, honoring outreach_home for tests.",
+      "id": "log_rationale_20"
     },
     {
       "label": "Return the path to the append-only sent log.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L25",
-      "id": "log_rationale_25",
-      "community": 0,
-      "norm_label": "return the path to the append-only sent log."
+      "community": 7,
+      "norm_label": "return the path to the append-only sent log.",
+      "id": "log_rationale_25"
     },
     {
       "label": "Record one sent message. Returns the row that was written.      Raises ValueErro",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L36",
-      "id": "log_rationale_36",
-      "community": 0,
-      "norm_label": "record one sent message. returns the row that was written.      raises valueerro"
+      "community": 4,
+      "norm_label": "record one sent message. returns the row that was written.      raises valueerro",
+      "id": "log_rationale_36"
     },
     {
       "label": "Return every prior contact for a person, oldest first.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L63",
-      "id": "log_rationale_63",
-      "community": 1,
-      "norm_label": "return every prior contact for a person, oldest first."
+      "community": 8,
+      "norm_label": "return every prior contact for a person, oldest first.",
+      "id": "log_rationale_63"
     },
     {
       "label": "Return the angles already used on this person.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L84",
-      "id": "log_rationale_84",
-      "community": 1,
-      "norm_label": "return the angles already used on this person."
+      "community": 6,
+      "norm_label": "return the angles already used on this person.",
+      "id": "log_rationale_84"
     },
     {
       "label": "Return angles not yet used on this person, in canonical order.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L89",
-      "id": "log_rationale_89",
-      "community": 1,
-      "norm_label": "return angles not yet used on this person, in canonical order."
+      "community": 6,
+      "norm_label": "return angles not yet used on this person, in canonical order.",
+      "id": "log_rationale_89"
     },
     {
       "label": "engine.py",
@@ -135,7 +135,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L1",
       "id": "users_nitesh_projects_outreach_dm_engine_py",
-      "community": 6,
+      "community": 1,
       "norm_label": "engine.py"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L31",
       "id": "engine_identity",
-      "community": 2,
+      "community": 1,
       "norm_label": "identity"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L41",
       "id": "engine_slugify",
-      "community": 2,
+      "community": 1,
       "norm_label": "slugify()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L79",
       "id": "engine_check_seen",
-      "community": 1,
+      "community": 5,
       "norm_label": "check_seen()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L96",
       "id": "engine_dossier_path",
-      "community": 5,
+      "community": 1,
       "norm_label": "dossier_path()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L101",
       "id": "engine_load_dossier",
-      "community": 5,
+      "community": 0,
       "norm_label": "load_dossier()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L109",
       "id": "engine_save_dossier",
-      "community": 4,
+      "community": 1,
       "norm_label": "save_dossier()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L117",
       "id": "engine_record_source",
-      "community": 7,
+      "community": 0,
       "norm_label": "record_source()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L138",
       "id": "engine_set_identity",
-      "community": 4,
+      "community": 0,
       "norm_label": "set_identity()"
     },
     {
@@ -225,14 +225,23 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L146",
       "id": "engine_build_dossier",
-      "community": 3,
+      "community": 0,
       "norm_label": "build_dossier()"
+    },
+    {
+      "label": "choose_channel()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
+      "source_location": "L172",
+      "id": "engine_choose_channel",
+      "community": 1,
+      "norm_label": "choose_channel()"
     },
     {
       "label": "_emit()",
       "file_type": "code",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L172",
+      "source_location": "L187",
       "id": "engine_emit",
       "community": 3,
       "norm_label": "_emit()"
@@ -241,7 +250,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L177",
+      "source_location": "L192",
       "id": "engine_main",
       "community": 3,
       "norm_label": "main()"
@@ -251,117 +260,504 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L1",
-      "id": "engine_rationale_1",
-      "community": 6,
-      "norm_label": "engine.py \u2014 deterministic half of outreach-dm.  handles identity resolution, the"
+      "community": 1,
+      "norm_label": "engine.py \u2014 deterministic half of outreach-dm.  handles identity resolution, the",
+      "id": "engine_rationale_1"
     },
     {
       "label": "Everything known about who the target is, before any research.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L32",
-      "id": "engine_rationale_32",
-      "community": 2,
-      "norm_label": "everything known about who the target is, before any research."
+      "community": 1,
+      "norm_label": "everything known about who the target is, before any research.",
+      "id": "engine_rationale_32"
     },
     {
       "label": "Lowercase ASCII slug, collapsing anything non-alphanumeric to a hyphen.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L42",
-      "id": "engine_rationale_42",
-      "community": 2,
-      "norm_label": "lowercase ascii slug, collapsing anything non-alphanumeric to a hyphen."
+      "community": 1,
+      "norm_label": "lowercase ascii slug, collapsing anything non-alphanumeric to a hyphen.",
+      "id": "engine_rationale_42"
     },
     {
       "label": "Derive a stable person_key from a LinkedIn URL, X handle, or \"Name, Company\".",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L49",
-      "id": "engine_rationale_49",
       "community": 2,
-      "norm_label": "derive a stable person_key from a linkedin url, x handle, or \"name, company\"."
+      "norm_label": "derive a stable person_key from a linkedin url, x handle, or \"name, company\".",
+      "id": "engine_rationale_49"
     },
     {
       "label": "Dedupe gate. Runs before any fetching.      Returns prior contacts plus the angl",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L80",
-      "id": "engine_rationale_80",
-      "community": 1,
-      "norm_label": "dedupe gate. runs before any fetching.      returns prior contacts plus the angl"
+      "community": 5,
+      "norm_label": "dedupe gate. runs before any fetching.      returns prior contacts plus the angl",
+      "id": "engine_rationale_80"
     },
     {
       "label": "Return the on-disk path for a person's dossier.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L97",
-      "id": "engine_rationale_97",
-      "community": 5,
-      "norm_label": "return the on-disk path for a person's dossier."
+      "community": 1,
+      "norm_label": "return the on-disk path for a person's dossier.",
+      "id": "engine_rationale_97"
     },
     {
       "label": "Load a dossier, returning an empty skeleton if none exists yet.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L102",
-      "id": "engine_rationale_102",
-      "community": 5,
-      "norm_label": "load a dossier, returning an empty skeleton if none exists yet."
+      "community": 0,
+      "norm_label": "load a dossier, returning an empty skeleton if none exists yet.",
+      "id": "engine_rationale_102"
     },
     {
       "label": "Write a dossier to disk and return its path.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L110",
-      "id": "engine_rationale_110",
-      "community": 4,
-      "norm_label": "write a dossier to disk and return its path."
+      "community": 1,
+      "norm_label": "write a dossier to disk and return its path.",
+      "id": "engine_rationale_110"
     },
     {
       "label": "Store one fetched source into the dossier and return the updated dossier.      A",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L118",
-      "id": "engine_rationale_118",
-      "community": 7,
-      "norm_label": "store one fetched source into the dossier and return the updated dossier.      a"
+      "community": 0,
+      "norm_label": "store one fetched source into the dossier and return the updated dossier.      a",
+      "id": "engine_rationale_118"
     },
     {
       "label": "Persist the resolved identity into the dossier.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L139",
-      "id": "engine_rationale_139",
-      "community": 4,
-      "norm_label": "persist the resolved identity into the dossier."
+      "community": 0,
+      "norm_label": "persist the resolved identity into the dossier.",
+      "id": "engine_rationale_139"
     },
     {
       "label": "Merge stored sources into the payload the skill drafts from.      `usable` is Fa",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L147",
-      "id": "engine_rationale_147",
-      "community": 3,
-      "norm_label": "merge stored sources into the payload the skill drafts from.      `usable` is fa"
+      "community": 0,
+      "norm_label": "merge stored sources into the payload the skill drafts from.      `usable` is fa",
+      "id": "engine_rationale_147"
     },
     {
       "label": "Print a payload as JSON for the skill to read.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L173",
-      "id": "engine_rationale_173",
+      "community": 1,
+      "norm_label": "print a payload as json for the skill to read.",
+      "id": "engine_rationale_173"
+    },
+    {
+      "label": "Print a payload as JSON for the skill to read.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
+      "source_location": "L188",
       "community": 3,
-      "norm_label": "print a payload as json for the skill to read."
+      "norm_label": "print a payload as json for the skill to read.",
+      "id": "engine_rationale_188"
+    },
+    {
+      "label": "CLI entry point. Every subcommand prints JSON on stdout.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
+      "source_location": "L193",
+      "community": 3,
+      "norm_label": "cli entry point. every subcommand prints json on stdout.",
+      "id": "engine_rationale_193"
+    },
+    {
+      "label": "test_engine.py",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L1",
+      "id": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "community": 3,
+      "norm_label": "test_engine.py"
+    },
+    {
+      "label": "isolated_home()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L16",
+      "id": "test_engine_isolated_home",
+      "community": 3,
+      "norm_label": "isolated_home()"
+    },
+    {
+      "label": "TestResolveIdentity",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L22",
+      "id": "test_engine_testresolveidentity",
+      "community": 2,
+      "norm_label": "testresolveidentity"
+    },
+    {
+      "label": ".test_linkedin_url_wins()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L23",
+      "id": "test_engine_testresolveidentity_test_linkedin_url_wins",
+      "community": 2,
+      "norm_label": ".test_linkedin_url_wins()"
+    },
+    {
+      "label": ".test_bare_x_handle()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L28",
+      "id": "test_engine_testresolveidentity_test_bare_x_handle",
+      "community": 2,
+      "norm_label": ".test_bare_x_handle()"
+    },
+    {
+      "label": ".test_x_url()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L33",
+      "id": "test_engine_testresolveidentity_test_x_url",
+      "community": 2,
+      "norm_label": ".test_x_url()"
+    },
+    {
+      "label": ".test_name_and_company()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L37",
+      "id": "test_engine_testresolveidentity_test_name_and_company",
+      "community": 2,
+      "norm_label": ".test_name_and_company()"
+    },
+    {
+      "label": ".test_name_only()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L43",
+      "id": "test_engine_testresolveidentity_test_name_only",
+      "community": 2,
+      "norm_label": ".test_name_only()"
+    },
+    {
+      "label": ".test_accents_normalize()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L48",
+      "id": "test_engine_testresolveidentity_test_accents_normalize",
+      "community": 2,
+      "norm_label": ".test_accents_normalize()"
+    },
+    {
+      "label": ".test_linkedin_beats_x_in_same_string()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L52",
+      "id": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string",
+      "community": 2,
+      "norm_label": ".test_linkedin_beats_x_in_same_string()"
+    },
+    {
+      "label": ".test_empty_input_rejected()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L59",
+      "id": "test_engine_testresolveidentity_test_empty_input_rejected",
+      "community": 2,
+      "norm_label": ".test_empty_input_rejected()"
+    },
+    {
+      "label": "TestDedupeGate",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L64",
+      "id": "test_engine_testdedupegate",
+      "community": 5,
+      "norm_label": "testdedupegate"
+    },
+    {
+      "label": ".test_unknown_person_is_clean()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L65",
+      "id": "test_engine_testdedupegate_test_unknown_person_is_clean",
+      "community": 5,
+      "norm_label": ".test_unknown_person_is_clean()"
+    },
+    {
+      "label": ".test_prior_contact_removes_its_angle()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L71",
+      "id": "test_engine_testdedupegate_test_prior_contact_removes_its_angle",
+      "community": 5,
+      "norm_label": ".test_prior_contact_removes_its_angle()"
+    },
+    {
+      "label": ".test_all_angles_used_marks_exhausted()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L78",
+      "id": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted",
+      "community": 5,
+      "norm_label": ".test_all_angles_used_marks_exhausted()"
+    },
+    {
+      "label": ".test_other_people_do_not_leak()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L85",
+      "id": "test_engine_testdedupegate_test_other_people_do_not_leak",
+      "community": 5,
+      "norm_label": ".test_other_people_do_not_leak()"
+    },
+    {
+      "label": "TestDossier",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L91",
+      "id": "test_engine_testdossier",
+      "community": 0,
+      "norm_label": "testdossier"
+    },
+    {
+      "label": ".test_record_and_merge()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L92",
+      "id": "test_engine_testdossier_test_record_and_merge",
+      "community": 0,
+      "norm_label": ".test_record_and_merge()"
+    },
+    {
+      "label": ".test_failed_source_is_visible_not_dropped()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L102",
+      "id": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "community": 0,
+      "norm_label": ".test_failed_source_is_visible_not_dropped()"
+    },
+    {
+      "label": ".test_no_sources_is_unusable()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L111",
+      "id": "test_engine_testdossier_test_no_sources_is_unusable",
+      "community": 0,
+      "norm_label": ".test_no_sources_is_unusable()"
+    },
+    {
+      "label": ".test_recording_twice_overwrites_not_duplicates()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L115",
+      "id": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates",
+      "community": 0,
+      "norm_label": ".test_recording_twice_overwrites_not_duplicates()"
+    },
+    {
+      "label": ".test_unknown_source_rejected()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L120",
+      "id": "test_engine_testdossier_test_unknown_source_rejected",
+      "community": 0,
+      "norm_label": ".test_unknown_source_rejected()"
+    },
+    {
+      "label": ".test_identity_persists_into_dossier()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L124",
+      "id": "test_engine_testdossier_test_identity_persists_into_dossier",
+      "community": 0,
+      "norm_label": ".test_identity_persists_into_dossier()"
+    },
+    {
+      "label": "TestCli",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L130",
+      "id": "test_engine_testcli",
+      "community": 3,
+      "norm_label": "testcli"
+    },
+    {
+      "label": ".test_resolve_prints_json()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L131",
+      "id": "test_engine_testcli_test_resolve_prints_json",
+      "community": 3,
+      "norm_label": ".test_resolve_prints_json()"
+    },
+    {
+      "label": ".test_seen_prints_json()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L135",
+      "id": "test_engine_testcli_test_seen_prints_json",
+      "community": 3,
+      "norm_label": ".test_seen_prints_json()"
+    },
+    {
+      "label": "Tests for identity resolution, the dedupe gate, and dossier merge.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "tests for identity resolution, the dedupe gate, and dossier merge.",
+      "id": "test_engine_rationale_1"
+    },
+    {
+      "label": "Point every test at a throwaway ~/.outreach so real data is never touched.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L17",
+      "community": 3,
+      "norm_label": "point every test at a throwaway ~/.outreach so real data is never touched.",
+      "id": "test_engine_rationale_17"
+    },
+    {
+      "label": "Priority is fixed so one person always resolves to one key.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L53",
+      "community": 2,
+      "norm_label": "priority is fixed so one person always resolves to one key.",
+      "id": "test_engine_rationale_53"
+    },
+    {
+      "label": "A gap must stay visible so drafting never fills it silently.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L103",
+      "community": 0,
+      "norm_label": "a gap must stay visible so drafting never fills it silently.",
+      "id": "test_engine_rationale_103"
+    },
+    {
+      "label": "test_log.py",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L1",
+      "id": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "community": 4,
+      "norm_label": "test_log.py"
+    },
+    {
+      "label": "isolated_home()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L14",
+      "id": "test_log_isolated_home",
+      "community": 4,
+      "norm_label": "isolated_home()"
+    },
+    {
+      "label": "test_append_creates_file_and_parent_dir()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L19",
+      "id": "test_log_test_append_creates_file_and_parent_dir",
+      "community": 4,
+      "norm_label": "test_append_creates_file_and_parent_dir()"
+    },
+    {
+      "label": "test_append_is_append_only()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L24",
+      "id": "test_log_test_append_is_append_only",
+      "community": 8,
+      "norm_label": "test_append_is_append_only()"
+    },
+    {
+      "label": "test_bad_angle_rejected_at_write()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L31",
+      "id": "test_log_test_bad_angle_rejected_at_write",
+      "community": 4,
+      "norm_label": "test_bad_angle_rejected_at_write()"
+    },
+    {
+      "label": "test_bad_channel_rejected()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L37",
+      "id": "test_log_test_bad_channel_rejected",
+      "community": 4,
+      "norm_label": "test_bad_channel_rejected()"
+    },
+    {
+      "label": "test_corrupt_line_does_not_hide_history()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L42",
+      "id": "test_log_test_corrupt_line_does_not_hide_history",
+      "community": 8,
+      "norm_label": "test_corrupt_line_does_not_hide_history()"
+    },
+    {
+      "label": "test_missing_file_returns_empty()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L51",
+      "id": "test_log_test_missing_file_returns_empty",
+      "community": 6,
+      "norm_label": "test_missing_file_returns_empty()"
+    },
+    {
+      "label": "test_used_and_available_are_complementary()",
+      "file_type": "code",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L56",
+      "id": "test_log_test_used_and_available_are_complementary",
+      "community": 6,
+      "norm_label": "test_used_and_available_are_complementary()"
+    },
+    {
+      "label": "Tests for the append-only outreach record.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "tests for the append-only outreach record.",
+      "id": "test_log_rationale_1"
+    },
+    {
+      "label": "Typos must fail loudly, or dedupe would never match the row later.",
+      "file_type": "rationale",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L32",
+      "community": 4,
+      "norm_label": "typos must fail loudly, or dedupe would never match the row later.",
+      "id": "test_log_rationale_32"
     },
     {
       "label": "CLI entry point. Every subcommand prints JSON on stdout.",
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L178",
-      "id": "engine_rationale_178",
-      "community": 3,
-      "norm_label": "cli entry point. every subcommand prints json on stdout."
+      "community": 9,
+      "norm_label": "cli entry point. every subcommand prints json on stdout.",
+      "id": "engine_rationale_178"
     }
   ],
   "links": [
@@ -480,8 +876,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L98",
       "weight": 1.0,
-      "_src": "engine_dossier_path",
-      "_tgt": "log_outreach_home",
+      "_src": "log_outreach_home",
+      "_tgt": "engine_dossier_path",
       "source": "log_outreach_home",
       "target": "engine_dossier_path"
     },
@@ -540,10 +936,118 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L219",
       "weight": 1.0,
-      "_src": "engine_main",
-      "_tgt": "log_append_contact",
+      "_src": "log_append_contact",
+      "_tgt": "engine_main",
       "source": "log_append_contact",
       "target": "engine_main"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_engine_testdedupegate_test_prior_contact_removes_its_angle",
+      "source": "log_append_contact",
+      "target": "test_engine_testdedupegate_test_prior_contact_removes_its_angle"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted",
+      "source": "log_append_contact",
+      "target": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_engine_testdedupegate_test_other_people_do_not_leak",
+      "source": "log_append_contact",
+      "target": "test_engine_testdedupegate_test_other_people_do_not_leak"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_append_creates_file_and_parent_dir",
+      "source": "log_append_contact",
+      "target": "test_log_test_append_creates_file_and_parent_dir"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_append_is_append_only",
+      "source": "log_append_contact",
+      "target": "test_log_test_append_is_append_only"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_bad_angle_rejected_at_write",
+      "source": "log_append_contact",
+      "target": "test_log_test_bad_angle_rejected_at_write"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_bad_channel_rejected",
+      "source": "log_append_contact",
+      "target": "test_log_test_bad_channel_rejected"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_corrupt_line_does_not_hide_history",
+      "source": "log_append_contact",
+      "target": "test_log_test_corrupt_line_does_not_hide_history"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "log_append_contact",
+      "_tgt": "test_log_test_used_and_available_are_complementary",
+      "source": "log_append_contact",
+      "target": "test_log_test_used_and_available_are_complementary"
     },
     {
       "relation": "calls",
@@ -576,10 +1080,46 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L85",
       "weight": 1.0,
-      "_src": "engine_check_seen",
-      "_tgt": "log_contacts_for",
+      "_src": "log_contacts_for",
+      "_tgt": "engine_check_seen",
       "source": "log_contacts_for",
       "target": "engine_check_seen"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "log_contacts_for",
+      "_tgt": "test_log_test_append_is_append_only",
+      "source": "log_contacts_for",
+      "target": "test_log_test_append_is_append_only"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "log_contacts_for",
+      "_tgt": "test_log_test_corrupt_line_does_not_hide_history",
+      "source": "log_contacts_for",
+      "target": "test_log_test_corrupt_line_does_not_hide_history"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "log_contacts_for",
+      "_tgt": "test_log_test_missing_file_returns_empty",
+      "source": "log_contacts_for",
+      "target": "test_log_test_missing_file_returns_empty"
     },
     {
       "relation": "calls",
@@ -606,6 +1146,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_src": "log_used_angles",
+      "_tgt": "test_log_test_used_and_available_are_complementary",
+      "source": "log_used_angles",
+      "target": "test_log_test_used_and_available_are_complementary"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
@@ -624,8 +1176,8 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L86",
       "weight": 1.0,
-      "_src": "engine_check_seen",
-      "_tgt": "log_available_angles",
+      "_src": "log_available_angles",
+      "_tgt": "engine_check_seen",
       "source": "log_available_angles",
       "target": "engine_check_seen"
     },
@@ -636,10 +1188,34 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
       "source_location": "L168",
       "weight": 1.0,
-      "_src": "engine_build_dossier",
-      "_tgt": "log_available_angles",
+      "_src": "log_available_angles",
+      "_tgt": "engine_build_dossier",
       "source": "log_available_angles",
       "target": "engine_build_dossier"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "log_available_angles",
+      "_tgt": "test_log_test_missing_file_returns_empty",
+      "source": "log_available_angles",
+      "target": "test_log_test_missing_file_returns_empty"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "log_available_angles",
+      "_tgt": "test_log_test_used_and_available_are_complementary",
+      "source": "log_available_angles",
+      "target": "test_log_test_used_and_available_are_complementary"
     },
     {
       "relation": "contains",
@@ -768,6 +1344,18 @@
       "source_location": "L172",
       "weight": 1.0,
       "_src": "users_nitesh_projects_outreach_dm_engine_py",
+      "_tgt": "engine_choose_channel",
+      "source": "users_nitesh_projects_outreach_dm_engine_py",
+      "target": "engine_choose_channel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_engine_py",
       "_tgt": "engine_emit",
       "source": "users_nitesh_projects_outreach_dm_engine_py",
       "target": "engine_emit",
@@ -777,7 +1365,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L177",
+      "source_location": "L192",
       "weight": 1.0,
       "_src": "users_nitesh_projects_outreach_dm_engine_py",
       "_tgt": "engine_main",
@@ -849,7 +1437,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L207",
+      "source_location": "L222",
       "weight": 1.0,
       "_src": "engine_main",
       "_tgt": "engine_resolve_identity",
@@ -871,9 +1459,129 @@
     },
     {
       "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_linkedin_url_wins",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_linkedin_url_wins"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_bare_x_handle",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_bare_x_handle"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_x_url",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_x_url"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_name_and_company",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_name_and_company"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_name_only",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_name_only"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_accents_normalize",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_accents_normalize"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testresolveidentity_test_empty_input_rejected",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testresolveidentity_test_empty_input_rejected"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testdossier_test_no_sources_is_unusable",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testdossier_test_no_sources_is_unusable"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_src": "engine_resolve_identity",
+      "_tgt": "test_engine_testdossier_test_identity_persists_into_dossier",
+      "source": "engine_resolve_identity",
+      "target": "test_engine_testdossier_test_identity_persists_into_dossier"
+    },
+    {
+      "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L211",
+      "source_location": "L226",
       "weight": 1.0,
       "_src": "engine_main",
       "_tgt": "engine_check_seen",
@@ -892,6 +1600,54 @@
       "source": "engine_check_seen",
       "target": "engine_rationale_80",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_src": "engine_check_seen",
+      "_tgt": "test_engine_testdedupegate_test_unknown_person_is_clean",
+      "source": "engine_check_seen",
+      "target": "test_engine_testdedupegate_test_unknown_person_is_clean"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_src": "engine_check_seen",
+      "_tgt": "test_engine_testdedupegate_test_prior_contact_removes_its_angle",
+      "source": "engine_check_seen",
+      "target": "test_engine_testdedupegate_test_prior_contact_removes_its_angle"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_src": "engine_check_seen",
+      "_tgt": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted",
+      "source": "engine_check_seen",
+      "target": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_src": "engine_check_seen",
+      "_tgt": "test_engine_testdedupegate_test_other_people_do_not_leak",
+      "source": "engine_check_seen",
+      "target": "test_engine_testdedupegate_test_other_people_do_not_leak"
     },
     {
       "relation": "calls",
@@ -1017,7 +1773,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L214",
+      "source_location": "L229",
       "weight": 1.0,
       "_src": "engine_main",
       "_tgt": "engine_record_source",
@@ -1039,9 +1795,57 @@
     },
     {
       "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_src": "engine_record_source",
+      "_tgt": "test_engine_testdossier_test_record_and_merge",
+      "source": "engine_record_source",
+      "target": "test_engine_testdossier_test_record_and_merge"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_src": "engine_record_source",
+      "_tgt": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "source": "engine_record_source",
+      "target": "test_engine_testdossier_test_failed_source_is_visible_not_dropped"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_src": "engine_record_source",
+      "_tgt": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates",
+      "source": "engine_record_source",
+      "target": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_src": "engine_record_source",
+      "_tgt": "test_engine_testdossier_test_unknown_source_rejected",
+      "source": "engine_record_source",
+      "target": "test_engine_testdossier_test_unknown_source_rejected"
+    },
+    {
+      "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L208",
+      "source_location": "L223",
       "weight": 1.0,
       "_src": "engine_main",
       "_tgt": "engine_set_identity",
@@ -1063,9 +1867,33 @@
     },
     {
       "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_src": "engine_set_identity",
+      "_tgt": "test_engine_testdossier_test_no_sources_is_unusable",
+      "source": "engine_set_identity",
+      "target": "test_engine_testdossier_test_no_sources_is_unusable"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_src": "engine_set_identity",
+      "_tgt": "test_engine_testdossier_test_identity_persists_into_dossier",
+      "source": "engine_set_identity",
+      "target": "test_engine_testdossier_test_identity_persists_into_dossier"
+    },
+    {
+      "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L217",
+      "source_location": "L232",
       "weight": 1.0,
       "_src": "engine_main",
       "_tgt": "engine_build_dossier",
@@ -1087,9 +1915,81 @@
     },
     {
       "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_src": "engine_build_dossier",
+      "_tgt": "test_engine_testdossier_test_record_and_merge",
+      "source": "engine_build_dossier",
+      "target": "test_engine_testdossier_test_record_and_merge"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_src": "engine_build_dossier",
+      "_tgt": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "source": "engine_build_dossier",
+      "target": "test_engine_testdossier_test_failed_source_is_visible_not_dropped"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_src": "engine_build_dossier",
+      "_tgt": "test_engine_testdossier_test_no_sources_is_unusable",
+      "source": "engine_build_dossier",
+      "target": "test_engine_testdossier_test_no_sources_is_unusable"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_src": "engine_build_dossier",
+      "_tgt": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates",
+      "source": "engine_build_dossier",
+      "target": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_src": "engine_build_dossier",
+      "_tgt": "test_engine_testdossier_test_identity_persists_into_dossier",
+      "source": "engine_build_dossier",
+      "target": "test_engine_testdossier_test_identity_persists_into_dossier"
+    },
+    {
+      "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L209",
+      "source_location": "L173",
+      "weight": 1.0,
+      "_src": "engine_rationale_173",
+      "_tgt": "engine_choose_channel",
+      "source": "engine_choose_channel",
+      "target": "engine_rationale_173",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
+      "source_location": "L224",
       "weight": 1.0,
       "_src": "engine_main",
       "_tgt": "engine_emit",
@@ -1101,24 +2001,516 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L173",
+      "source_location": "L188",
       "weight": 1.0,
-      "_src": "engine_rationale_173",
+      "_src": "engine_rationale_188",
       "_tgt": "engine_emit",
       "source": "engine_emit",
-      "target": "engine_rationale_173",
+      "target": "engine_rationale_188",
       "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "/Users/nitesh/Projects/outreach-dm/engine.py",
-      "source_location": "L178",
+      "source_location": "L193",
       "weight": 1.0,
-      "_src": "engine_rationale_178",
+      "_src": "engine_rationale_193",
       "_tgt": "engine_main",
       "source": "engine_main",
-      "target": "engine_rationale_178",
+      "target": "engine_rationale_193",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_src": "engine_main",
+      "_tgt": "test_engine_testcli_test_resolve_prints_json",
+      "source": "engine_main",
+      "target": "test_engine_testcli_test_resolve_prints_json"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_src": "engine_main",
+      "_tgt": "test_engine_testcli_test_seen_prints_json",
+      "source": "engine_main",
+      "target": "test_engine_testcli_test_seen_prints_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "_tgt": "test_engine_isolated_home",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "target": "test_engine_isolated_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "_tgt": "test_engine_testresolveidentity",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "target": "test_engine_testresolveidentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "_tgt": "test_engine_testdedupegate",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "target": "test_engine_testdedupegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "_tgt": "test_engine_testdossier",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "target": "test_engine_testdossier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "_tgt": "test_engine_testcli",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "target": "test_engine_testcli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "test_engine_rationale_1",
+      "_tgt": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_engine_py",
+      "target": "test_engine_rationale_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "test_engine_rationale_17",
+      "_tgt": "test_engine_isolated_home",
+      "source": "test_engine_isolated_home",
+      "target": "test_engine_rationale_17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_linkedin_url_wins",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_linkedin_url_wins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_bare_x_handle",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_bare_x_handle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_x_url",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_x_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_name_and_company",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_name_and_company",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_name_only",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_name_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_accents_normalize",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_accents_normalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "test_engine_testresolveidentity",
+      "_tgt": "test_engine_testresolveidentity_test_empty_input_rejected",
+      "source": "test_engine_testresolveidentity",
+      "target": "test_engine_testresolveidentity_test_empty_input_rejected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "test_engine_rationale_53",
+      "_tgt": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string",
+      "source": "test_engine_testresolveidentity_test_linkedin_beats_x_in_same_string",
+      "target": "test_engine_rationale_53",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_src": "test_engine_testdedupegate",
+      "_tgt": "test_engine_testdedupegate_test_unknown_person_is_clean",
+      "source": "test_engine_testdedupegate",
+      "target": "test_engine_testdedupegate_test_unknown_person_is_clean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_src": "test_engine_testdedupegate",
+      "_tgt": "test_engine_testdedupegate_test_prior_contact_removes_its_angle",
+      "source": "test_engine_testdedupegate",
+      "target": "test_engine_testdedupegate_test_prior_contact_removes_its_angle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_src": "test_engine_testdedupegate",
+      "_tgt": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted",
+      "source": "test_engine_testdedupegate",
+      "target": "test_engine_testdedupegate_test_all_angles_used_marks_exhausted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_src": "test_engine_testdedupegate",
+      "_tgt": "test_engine_testdedupegate_test_other_people_do_not_leak",
+      "source": "test_engine_testdedupegate",
+      "target": "test_engine_testdedupegate_test_other_people_do_not_leak",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_src": "test_engine_testdossier",
+      "_tgt": "test_engine_testdossier_test_record_and_merge",
+      "source": "test_engine_testdossier",
+      "target": "test_engine_testdossier_test_record_and_merge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_src": "test_engine_testdossier",
+      "_tgt": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "source": "test_engine_testdossier",
+      "target": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_src": "test_engine_testdossier",
+      "_tgt": "test_engine_testdossier_test_no_sources_is_unusable",
+      "source": "test_engine_testdossier",
+      "target": "test_engine_testdossier_test_no_sources_is_unusable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_src": "test_engine_testdossier",
+      "_tgt": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates",
+      "source": "test_engine_testdossier",
+      "target": "test_engine_testdossier_test_recording_twice_overwrites_not_duplicates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_src": "test_engine_testdossier",
+      "_tgt": "test_engine_testdossier_test_unknown_source_rejected",
+      "source": "test_engine_testdossier",
+      "target": "test_engine_testdossier_test_unknown_source_rejected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_src": "test_engine_testdossier",
+      "_tgt": "test_engine_testdossier_test_identity_persists_into_dossier",
+      "source": "test_engine_testdossier",
+      "target": "test_engine_testdossier_test_identity_persists_into_dossier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "test_engine_rationale_103",
+      "_tgt": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "source": "test_engine_testdossier_test_failed_source_is_visible_not_dropped",
+      "target": "test_engine_rationale_103",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_src": "test_engine_testcli",
+      "_tgt": "test_engine_testcli_test_resolve_prints_json",
+      "source": "test_engine_testcli",
+      "target": "test_engine_testcli_test_resolve_prints_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_engine.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_src": "test_engine_testcli",
+      "_tgt": "test_engine_testcli_test_seen_prints_json",
+      "source": "test_engine_testcli",
+      "target": "test_engine_testcli_test_seen_prints_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_isolated_home",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_isolated_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_append_creates_file_and_parent_dir",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_append_creates_file_and_parent_dir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_append_is_append_only",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_append_is_append_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_bad_angle_rejected_at_write",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_bad_angle_rejected_at_write",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_bad_channel_rejected",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_bad_channel_rejected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_corrupt_line_does_not_hide_history",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_corrupt_line_does_not_hide_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_missing_file_returns_empty",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_missing_file_returns_empty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "_tgt": "test_log_test_used_and_available_are_complementary",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_test_used_and_available_are_complementary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "test_log_rationale_1",
+      "_tgt": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "source": "users_nitesh_projects_outreach_dm_tests_test_log_py",
+      "target": "test_log_rationale_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "test_log_rationale_32",
+      "_tgt": "test_log_test_bad_angle_rejected_at_write",
+      "source": "test_log_test_bad_angle_rejected_at_write",
+      "target": "test_log_rationale_32",
       "confidence_score": 1.0
     }
   ],

@@ -127,6 +127,54 @@ class TestDossier:
         assert built["identity"]["company"] == "Datasette"
 
 
+class TestChooseChannel:
+    def test_both_platforms_defers_to_nitesh(self):
+        """The channel shapes the tone, so a real choice is never guessed."""
+        engine.record_source("simonw", "linkedin", "Staff Engineer")
+        engine.record_source("simonw", "x", {"bio": "builds things"})
+        result = engine.choose_channel(engine.build_dossier("simonw"))
+
+        assert result["ask"] is True
+        assert result["channel"] is None
+        assert set(result["options"]) == {"linkedin", "x"}
+
+    def test_single_platform_resolves_without_asking(self):
+        engine.record_source("simonw", "x", {"bio": "builds things"})
+        result = engine.choose_channel(engine.build_dossier("simonw"))
+
+        assert result["ask"] is False
+        assert result["channel"] == "x"
+
+    def test_override_wins_over_everything(self):
+        engine.record_source("simonw", "linkedin", "Staff Engineer")
+        engine.record_source("simonw", "x", {"bio": "builds things"})
+        result = engine.choose_channel(engine.build_dossier("simonw"), override="linkedin")
+
+        assert result["ask"] is False
+        assert result["channel"] == "linkedin"
+
+    def test_web_only_evidence_is_not_a_channel(self):
+        """A personal site is a hook source, not somewhere you can DM."""
+        engine.record_source("simonw", "web", ["https://simonwillison.net"])
+        result = engine.choose_channel(engine.build_dossier("simonw"))
+
+        assert result["channel"] is None
+        assert result["ask"] is False
+        assert result["options"] == []
+
+    def test_failed_platform_is_not_an_option(self):
+        engine.record_source("simonw", "linkedin", None, status="failed")
+        engine.record_source("simonw", "x", {"bio": "builds things"})
+        result = engine.choose_channel(engine.build_dossier("simonw"))
+
+        assert result["channel"] == "x"
+        assert result["options"] == ["x"]
+
+    def test_bad_override_rejected(self):
+        with pytest.raises(ValueError):
+            engine.choose_channel(engine.build_dossier("simonw"), override="instagram")
+
+
 class TestCli:
     def test_resolve_prints_json(self, capsys):
         engine.main(["resolve", "@simonw"])

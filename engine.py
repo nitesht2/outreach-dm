@@ -21,6 +21,7 @@ from pathlib import Path
 import log
 
 SOURCES = ("linkedin", "x", "web")
+CHANNELS = ("linkedin", "x")
 
 _LINKEDIN_RE = re.compile(r"linkedin\.com/in/([A-Za-z0-9\-_%]+)", re.IGNORECASE)
 _X_URL_RE = re.compile(r"(?:twitter|x)\.com/([A-Za-z0-9_]{1,15})", re.IGNORECASE)
@@ -169,19 +170,51 @@ def build_dossier(person_key: str) -> dict:
     }
 
 
-def choose_channel(dossier: dict, override: str | None = None) -> str:
-    """Pick 'linkedin' or 'x' as the channel to send on.
+def choose_channel(dossier: dict, override: str | None = None) -> dict:
+    """Decide the send channel, or defer to Nitesh when it is a real choice.
 
-    The design doc says: default to whichever platform produced the strongest
-    ranked hook, tie-break to LinkedIn for work-related and X for build-related.
-    That tie-break rule is a judgment call about how Nitesh wants to be seen, so
-    it lives here as an explicit, testable rule rather than buried in a prompt.
+    Research reads both platforms; the channel only decides where the message
+    goes and therefore how it reads. Nitesh picks that himself, so this never
+    guesses between two live options. It resolves only when there is nothing to
+    guess: an explicit override, or evidence from a single platform.
 
-    `dossier` is the output of build_dossier(). `override` comes from --channel.
+    `dossier` is build_dossier() output. `override` comes from --channel.
 
-    TODO(nitesh): implement the selection rule.
+    Returns {"channel": str|None, "ask": bool, "options": list, "reason": str}.
+    When ask is True the skill must ask before drafting.
     """
-    raise NotImplementedError("choose_channel not implemented yet")
+    if override is not None:
+        if override not in CHANNELS:
+            raise ValueError(f"unknown channel {override!r}, expected one of {CHANNELS}")
+        return {
+            "channel": override,
+            "ask": False,
+            "options": [override],
+            "reason": "explicit --channel override",
+        }
+
+    options = [name for name in CHANNELS if name in dossier.get("sources_ok", [])]
+
+    if not options:
+        return {
+            "channel": None,
+            "ask": False,
+            "options": [],
+            "reason": "no platform evidence, nothing to send on",
+        }
+    if len(options) == 1:
+        return {
+            "channel": options[0],
+            "ask": False,
+            "options": options,
+            "reason": f"only {options[0]} produced evidence",
+        }
+    return {
+        "channel": None,
+        "ask": True,
+        "options": options,
+        "reason": "both platforms produced evidence, Nitesh picks",
+    }
 
 
 def _emit(payload) -> None:
@@ -209,6 +242,10 @@ def main(argv: list[str] | None = None) -> int:
     p_dossier = sub.add_parser("dossier", help="merge sources into the drafting payload")
     p_dossier.add_argument("person_key")
 
+    p_channel = sub.add_parser("channel", help="resolve the send channel, or defer to Nitesh")
+    p_channel.add_argument("person_key")
+    p_channel.add_argument("--channel", dest="override", choices=CHANNELS)
+
     p_logged = sub.add_parser("log-sent", help="append a sent message to sent.jsonl")
     p_logged.add_argument("person_key")
     p_logged.add_argument("channel", choices=("linkedin", "x"))
@@ -230,6 +267,8 @@ def main(argv: list[str] | None = None) -> int:
         _emit({"recorded": args.source, "status": args.status, "chars": len(content)})
     elif args.command == "dossier":
         _emit(build_dossier(args.person_key))
+    elif args.command == "channel":
+        _emit(choose_channel(build_dossier(args.person_key), args.override))
     elif args.command == "log-sent":
         _emit(log.append_contact(
             args.person_key, args.channel, args.angle, args.message, args.hook_url

@@ -121,7 +121,23 @@ Always read, in order:
 Then the channel file: `~/.voice/04-linkedin-voice.md` or `~/.voice/05-x-voice.md`.
 The platform file changes format only, never identity or the anti-slop rules.
 
-Channel selection: `engine.choose_channel(dossier, override)`.
+Channel selection:
+
+```bash
+python3 engine.py channel <person_key> [--channel x|linkedin]
+```
+
+Research always reads both platforms. The channel only decides where the message
+goes, and that changes how it reads, so **never guess it**:
+
+- `ask: true` → both platforms have evidence. Ask Nitesh which one before
+  drafting. Do not pick a default.
+- `ask: false` with a channel → an override, or only one platform had evidence.
+  Proceed.
+- `channel: null` and `ask: false` → the only evidence is web. There is nowhere
+  to DM; tell him and stop.
+
+Load the channel voice file only after this resolves.
 
 ## Step 8 — Draft three angles
 
