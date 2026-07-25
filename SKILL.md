@@ -120,6 +120,26 @@ will look open on a person who is structurally wrong.
 Dedupe is about *whether* to write. This is about *what to write*. Passing the
 first tells you nothing about the second.
 
+## Step 6b — Status gate (judgment, before ranking)
+
+Check what is happening to this person right now, before deciding they can help.
+
+**Abort outright** if they are "Open to Work", recently laid off, or posting that
+they are looking. Asking someone who is job hunting to help you find a job is
+tone-deaf and it burns the contact permanently. This overrides every other signal:
+a perfect domain match who is out of work is still an abort. Their headline is not
+evidence they still hold the job, an active open-to-work banner outranks it.
+
+**Reframe, don't abort**, when they are employed but structurally can't do the ask
+(wrong domain, wrong level, manages recruiters rather than owning reqs).
+
+Also worth catching: a recent job change (the old company is still in the headline),
+a company in visible trouble, or a personal post signalling something hard. When in
+doubt, ask Nitesh.
+
+Record the abort in the dossier anyway. Knowing why someone was ruled out is worth
+keeping, and it stops a future run redoing the research.
+
 ## Step 6 — Rank hooks (judgment)
 
 Score each candidate on:

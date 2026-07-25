@@ -9,7 +9,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L1",
       "id": "users_nitesh_projects_outreach_dm_log_py",
-      "community": 6,
+      "community": 7,
       "norm_label": "log.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L19",
       "id": "log_outreach_home",
-      "community": 6,
+      "community": 7,
       "norm_label": "outreach_home()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L24",
       "id": "log_sent_path",
-      "community": 6,
+      "community": 7,
       "norm_label": "sent_path()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L83",
       "id": "log_used_angles",
-      "community": 7,
+      "community": 6,
       "norm_label": "used_angles()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L88",
       "id": "log_available_angles",
-      "community": 7,
+      "community": 6,
       "norm_label": "available_angles()"
     },
     {
@@ -71,7 +71,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L1",
-      "community": 6,
+      "community": 7,
       "norm_label": "log.py \u2014 append-only outreach record.  every message nitesh actually sends is ap",
       "id": "log_rationale_1"
     },
@@ -80,7 +80,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L20",
-      "community": 6,
+      "community": 7,
       "norm_label": "return the data directory, honoring outreach_home for tests.",
       "id": "log_rationale_20"
     },
@@ -89,7 +89,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L25",
-      "community": 6,
+      "community": 7,
       "norm_label": "return the path to the append-only sent log.",
       "id": "log_rationale_25"
     },
@@ -116,7 +116,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L84",
-      "community": 7,
+      "community": 6,
       "norm_label": "return the angles already used on this person.",
       "id": "log_rationale_84"
     },
@@ -125,7 +125,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L89",
-      "community": 7,
+      "community": 6,
       "norm_label": "return angles not yet used on this person, in canonical order.",
       "id": "log_rationale_89"
     },
@@ -801,7 +801,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L51",
       "id": "test_log_test_missing_file_returns_empty",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_missing_file_returns_empty()"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L56",
       "id": "test_log_test_used_and_available_are_complementary",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_used_and_available_are_complementary()"
     },
     {
