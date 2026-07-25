@@ -77,18 +77,24 @@ def resolve_identity(raw_input: str) -> Identity:
     return Identity(person_key=key, name=name, company=company)
 
 
-def check_seen(person_key: str) -> dict:
+def check_seen(person_key: str, intent: str | None = None) -> dict:
     """Dedupe gate. Runs before any fetching.
 
-    Returns prior contacts plus the angles still available. When every angle is
-    used the caller must stop rather than repeat one.
+    `prior_contacts` is always every past message, regardless of intent: Nitesh
+    needs to see the whole history before writing. `available_angles` is scoped
+    to this intent, so a past networking note does not block a later role ask.
     """
+    if intent is not None and intent not in log.INTENTS:
+        raise ValueError(f"unknown intent {intent!r}, expected one of {log.INTENTS}")
+
     prior = log.contacts_for(person_key)
-    available = log.available_angles(person_key)
+    available = log.available_angles(person_key, intent)
     return {
         "person_key": person_key,
+        "intent": intent,
         "contacted_before": bool(prior),
         "prior_contacts": prior,
+        "prior_intents": sorted({r["intent"] for r in prior if r.get("intent")}),
         "available_angles": available,
         "exhausted": not available,
     }
@@ -232,6 +238,7 @@ def main(argv: list[str] | None = None) -> int:
 
     p_seen = sub.add_parser("seen", help="dedupe gate: prior contacts and open angles")
     p_seen.add_argument("person_key")
+    p_seen.add_argument("--intent", choices=log.INTENTS)
 
     p_record = sub.add_parser("record", help="store one fetched source")
     p_record.add_argument("person_key")
@@ -252,6 +259,7 @@ def main(argv: list[str] | None = None) -> int:
     p_logged.add_argument("angle", choices=log.ANGLES)
     p_logged.add_argument("--message", required=True)
     p_logged.add_argument("--hook-url")
+    p_logged.add_argument("--intent", default="job", choices=log.INTENTS)
 
     args = parser.parse_args(argv)
 
@@ -260,7 +268,7 @@ def main(argv: list[str] | None = None) -> int:
         set_identity(identity)
         _emit(asdict(identity))
     elif args.command == "seen":
-        _emit(check_seen(args.person_key))
+        _emit(check_seen(args.person_key, args.intent))
     elif args.command == "record":
         content = Path(args.file).read_text(encoding="utf-8") if args.file else sys.stdin.read()
         record_source(args.person_key, args.source, content, status=args.status)
@@ -271,7 +279,8 @@ def main(argv: list[str] | None = None) -> int:
         _emit(choose_channel(build_dossier(args.person_key), args.override))
     elif args.command == "log-sent":
         _emit(log.append_contact(
-            args.person_key, args.channel, args.angle, args.message, args.hook_url
+            args.person_key, args.channel, args.angle, args.message,
+            args.hook_url, args.intent
         ))
 
     return 0

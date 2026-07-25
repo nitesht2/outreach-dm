@@ -1,7 +1,7 @@
 # Graph Report - /Users/nitesh/Projects/outreach-dm  (2026-07-25)
 
 ## Corpus Check
-- 4 files · ~6,501 words
+- 4 files · ~6,675 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -86,11 +86,11 @@ Nodes (3): check_seen(), Dedupe gate. Runs before any fetching.      Returns pri
 
 ### Community 6 - "Community 6"
 Cohesion: 0.4
-Nodes (6): available_angles(), Return the angles already used on this person., Return angles not yet used on this person, in canonical order., used_angles(), test_missing_file_returns_empty(), test_used_and_available_are_complementary()
+Nodes (5): outreach_home(), log.py — Append-only outreach record.  Every message Nitesh actually sends is ap, Return the data directory, honoring OUTREACH_HOME for tests., Return the path to the append-only sent log., sent_path()
 
 ### Community 7 - "Community 7"
 Cohesion: 0.4
-Nodes (5): outreach_home(), log.py — Append-only outreach record.  Every message Nitesh actually sends is ap, Return the data directory, honoring OUTREACH_HOME for tests., Return the path to the append-only sent log., sent_path()
+Nodes (6): available_angles(), Return the angles already used on this person., Return angles not yet used on this person, in canonical order., used_angles(), test_missing_file_returns_empty(), test_used_and_available_are_complementary()
 
 ### Community 8 - "Community 8"
 Cohesion: 0.5

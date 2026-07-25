@@ -11,7 +11,25 @@ description: >
 # dm-person
 
 Usage: `/dm-person <linkedin-url | @xhandle | "Name, Company">` with optional
-`--channel x|linkedin`.
+`--intent job|network|advice|collab|pitch` and `--channel x|linkedin`.
+
+## Step 0 — Intent (ask first, before anything)
+
+If `--intent` was not given, **ask Nitesh before doing any work.** Intent decides
+what the message is for, and everything downstream depends on it: which hooks
+matter, whether there is an ask at all, and what counts as a good draft. Guessing
+it wastes the whole run.
+
+| Intent | What he wants | The ask | Watch for |
+|---|---|---|---|
+| `job` | a role, or a referral to whoever owns one | explicit, and small | never ask a stranger to vouch for him. Ask for a name or a next step |
+| `network` | a relationship, nothing today | **none.** Do not smuggle one in | the temptation to tack on "also, are you hiring". That converts it to `job` and reads worse than either |
+| `advice` | one specific question answered | the question itself | it must be a real question with a real answer, not a job ask wearing a disguise. Ask something only this person could answer |
+| `collab` | build or partner on something | a concrete next step | he has to bring something. Name what he'd contribute |
+| `pitch` | sell a service or product | the offer | soft-sell per `02`. Show the work, don't push |
+
+`network` and `advice` are the ones that get corrupted. If a draft with either
+intent contains a role ask, it is wrong. Rewrite it or change the intent.
 
 Repo: `~/Projects/outreach-dm`. Data: `~/.outreach` (outside the repo, holds
 third-party personal data, never commit it).
@@ -39,17 +57,21 @@ matters, and how to say it in Nitesh's voice.
 
 ```bash
 cd ~/Projects/outreach-dm
-python3 engine.py resolve "<raw input>"      # -> person_key
-python3 engine.py seen <person_key>
+python3 engine.py resolve "<raw input>"           # -> person_key
+python3 engine.py seen <person_key> --intent <intent>
 ```
 
 Cheap gates run first. Researching before checking is a wasted pass on someone
 already contacted.
 
-- `contacted_before: true` → show Nitesh the prior message, date, and angle, then
-  restrict this run to `available_angles`.
-- `exhausted: true` → **stop.** Tell him every angle is used and ask what he
-  wants to do. Do not invent a fourth angle.
+- `contacted_before: true` → show Nitesh the prior message, date, angle, and
+  intent, then restrict this run to `available_angles`.
+- `prior_intents` shows what he has already asked this person for. A `network`
+  note six months ago is a *reason to write*, not a blocker. Reference it: "we
+  connected back in March" is a better opener than anything cold.
+- `exhausted: true` → every angle for **this intent** is used. Stop and ask.
+  A different intent may still be open, and that is usually the right move.
+  Do not invent a fourth angle.
 
 ## Step 2 — LinkedIn (Nitesh drives)
 
@@ -218,5 +240,5 @@ hooks with sources, then the three drafts.
 Only after Nitesh confirms he actually sent one:
 
 ```bash
-python3 engine.py log-sent <person_key> <channel> <angle> --message "..." --hook-url "..."
+python3 engine.py log-sent <person_key> <channel> <angle> --intent <intent> --message "..." --hook-url "..."
 ```
