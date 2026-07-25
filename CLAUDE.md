@@ -18,9 +18,19 @@ Override with `OUTREACH_HOME` (tests do this).
 - Validator: `voice_rules.py` imported from `~/Projects/Twitter-NiteshTechAI-Post/`, not copied.
   That repo stays the single source of truth for banned words.
 
+## Concepts
+- **intent** = why he's writing (job/network/advice/collab/pitch). Decides whether there's an ask.
+- **angle** = how the message opens (shared-build/recent-thing/direct-ask).
+- Angles are tracked per intent: a networking note doesn't block a later role ask.
+
+## Gates (in order)
+1. dedupe — contacted before, for this intent?
+2. domain fit — does their stated work overlap the ask? (keyword search lies: `data` -> data centers)
+3. status — Open to Work / laid off -> abort, never ask a job seeker for a job
+
 ## Rules
 - Never sends. Drafts only.
-- Never automates LinkedIn. Nitesh opens the page, agent reads it.
+- Never *crawls* LinkedIn. One user-named page load is fine; volume is not.
 - No evidence -> abort. Never fabricate a hook.
 
 ## Test
