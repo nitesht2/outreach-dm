@@ -69,6 +69,13 @@ hunting on any of them would have been wasted work.
 Order matters. The opening is what makes a person worth finding, so verify the opening
 before you spend anything on the person.
 
+**US companies only.** Check the company's headquarters, not just the role's location
+tag. A foreign company hiring "remote" usually means remote in its own region, and it
+brings payroll, timezone, and work-authorization problems Nitesh does not want. If the
+HQ is outside the US, skip it the same way as a closed req. Also skip roles that are
+hybrid or onsite outside commuting range: he is Sacramento-based, so remote or Greater
+Sacramento only.
+
 ## Step 1 — Dedupe gate (before any fetching)
 
 ```bash

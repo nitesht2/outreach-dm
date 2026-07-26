@@ -1,7 +1,7 @@
 # Graph Report - /Users/nitesh/Projects/outreach-dm  (2026-07-25)
 
 ## Corpus Check
-- 4 files · ~8,459 words
+- 4 files · ~8,603 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -110,11 +110,11 @@ Nodes (5): outreach_home(), log.py — Append-only outreach record.  Every messa
 
 ### Community 8 - "Community 8"
 Cohesion: 0.5
-Nodes (4): contacts_for(), Return every prior contact for a person, oldest first., test_append_is_append_only(), test_corrupt_line_does_not_hide_history()
+Nodes (4): Return the angles already used on this person, optionally scoped to one intent., used_angles(), test_unscoped_query_counts_every_intent(), test_used_and_available_are_complementary()
 
 ### Community 9 - "Community 9"
 Cohesion: 0.5
-Nodes (4): Return the angles already used on this person, optionally scoped to one intent., used_angles(), test_unscoped_query_counts_every_intent(), test_used_and_available_are_complementary()
+Nodes (4): contacts_for(), Return every prior contact for a person, oldest first., test_append_is_append_only(), test_corrupt_line_does_not_hide_history()
 
 ### Community 10 - "Community 10"
 Cohesion: 1.0
