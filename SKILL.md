@@ -53,6 +53,22 @@ matters, and how to say it in Nitesh's voice.
   source succeeded, abort instead of drafting.
 - **Never write to `sent.jsonl` without explicit confirmation.**
 
+## Step 0.5 — Req-liveness gate (job intent only, before finding anyone)
+
+**If the outreach is about a specific role, open the job link FIRST.**
+
+If it says "No longer accepting applications", or the posting is gone, **stop**. Do not
+search for recruiters at that company, do not open profiles, do not draft. A closed req
+means there is nothing to talk about, and the whole company is out of scope for this run.
+Report it as closed and move to the next row.
+
+This is a hard rule from Nitesh, 2026-07-25. It was earned: three of his highest-match
+tracked applications (Alma 89, Earnest 82, Snowflake 78) were all closed, and contact
+hunting on any of them would have been wasted work.
+
+Order matters. The opening is what makes a person worth finding, so verify the opening
+before you spend anything on the person.
+
 ## Step 1 — Dedupe gate (before any fetching)
 
 ```bash

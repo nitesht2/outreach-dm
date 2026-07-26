@@ -45,7 +45,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L76",
       "id": "log_contacts_for",
-      "community": 9,
+      "community": 8,
       "norm_label": "contacts_for()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L97",
       "id": "log_used_angles",
-      "community": 8,
+      "community": 9,
       "norm_label": "used_angles()"
     },
     {
@@ -107,7 +107,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L77",
-      "community": 9,
+      "community": 8,
       "norm_label": "return every prior contact for a person, oldest first.",
       "id": "log_rationale_77"
     },
@@ -116,7 +116,7 @@
       "file_type": "rationale",
       "source_file": "/Users/nitesh/Projects/outreach-dm/log.py",
       "source_location": "L98",
-      "community": 8,
+      "community": 9,
       "norm_label": "return the angles already used on this person, optionally scoped to one intent.",
       "id": "log_rationale_98"
     },
@@ -765,7 +765,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L24",
       "id": "test_log_test_append_is_append_only",
-      "community": 9,
+      "community": 8,
       "norm_label": "test_append_is_append_only()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L42",
       "id": "test_log_test_corrupt_line_does_not_hide_history",
-      "community": 9,
+      "community": 8,
       "norm_label": "test_corrupt_line_does_not_hide_history()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L72",
       "id": "test_log_test_unscoped_query_counts_every_intent",
-      "community": 8,
+      "community": 9,
       "norm_label": "test_unscoped_query_counts_every_intent()"
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "/Users/nitesh/Projects/outreach-dm/tests/test_log.py",
       "source_location": "L103",
       "id": "test_log_test_used_and_available_are_complementary",
-      "community": 8,
+      "community": 9,
       "norm_label": "test_used_and_available_are_complementary()"
     },
     {
