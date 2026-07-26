@@ -35,11 +35,18 @@ intent contains a role ask, it is wrong. Rewrite it or change the intent.
 
 Close on getting the application looked at, phrased plainly:
 
-> My application is in there under Nitesh Thapa. Would you take a look?
+> My application is in there under Nitesh Thapa. Would you take a look? And if this
+> isn't your req, I'd appreciate a pointer to whoever owns it.
 
 Ten seconds of their time, no calendar, and it targets the only thing that decides
 the outcome: whether a human opens the file. Naming himself makes it executable
 without a reply, since they can just search the ATS.
+
+The second sentence is the redirect, and it is not optional. Titles are a guess
+from outside: a manager may not own the req, may have moved teams, or may sit one
+level off. Without the redirect, a wrong guess produces silence. With it, the
+wrong person can still hand over a name, which is the next-best outcome and costs
+them nothing.
 
 Do NOT close with "worth a short call." A call is what a hiring manager offers
 *after* deciding someone is interesting. Asking for one first inverts the order,

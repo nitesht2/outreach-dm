@@ -1,7 +1,7 @@
 # Graph Report - /Users/nitesh/Projects/outreach-dm  (2026-07-25)
 
 ## Corpus Check
-- 4 files · ~8,812 words
+- 4 files · ~8,850 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
