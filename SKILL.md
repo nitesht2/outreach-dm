@@ -23,6 +23,20 @@ it wastes the whole run.
 | Intent | What he wants | The ask | Watch for |
 |---|---|---|---|
 | `job` | a role, or a referral to whoever owns one | explicit, and small | never ask a stranger to vouch for him. Ask for a name or a next step |
+
+**When he has already applied, the default ask is "pull up my application."**
+Something like: "It's in the stack under Nitesh Thapa. Worth pulling up?" Ten
+seconds of their time, no calendar, and it targets the thing that actually decides
+the outcome: whether a human opens the file.
+
+Do NOT open with "worth a short call." A call is what a hiring manager offers
+*after* deciding someone is interesting. Asking for one first inverts the order,
+requests 30 minutes from a person who has not spent 30 seconds on the application,
+and is free to ignore. The call comes on the second exchange.
+
+Second-best ask: a real question only this person can answer (is X a hard
+requirement, who is screening this). A one-line reply starts a thread, and threads
+turn into calls on their own.
 | `network` | a relationship, nothing today | **none.** Do not smuggle one in | the temptation to tack on "also, are you hiring". That converts it to `job` and reads worse than either |
 | `advice` | one specific question answered | the question itself | it must be a real question with a real answer, not a job ask wearing a disguise. Ask something only this person could answer |
 | `collab` | build or partner on something | a concrete next step | he has to bring something. Name what he'd contribute |
